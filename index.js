@@ -9,4 +9,4 @@ app.use(express.json())
 app.use("/api/v1/blogs", blogsRoute)
 app.use(cors())
 
-app.listen(8000, console.log("server started on port 8000"))
+app.listen(port, console.log("server started on port 8000"))
