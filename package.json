@@ -1,0 +1,19 @@
+{
+  "name": "react-blog-app-backend",
+  "version": "1.0.0",
+  "description": "it is backend part of react-blog-app",
+  "main": "index.js",
+  "author": "swetha krishnan",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
