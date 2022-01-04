@@ -1,6 +1,7 @@
 const express = require("express")
 const blogsRoute = require("./blogs")
 const cors = require("cors")
+const port = process.env.port || 8000;
 
 const app = express()
 
